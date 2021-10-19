@@ -20,7 +20,7 @@ const useFirebase = () => {
     }
 
     // Facebook sign in 
-    const signInUsingGitHubFacebook = () => {
+    const signInUsingFacebook = () => {
         return signInWithPopup(auth, facebookProvider);
     }
 
@@ -128,7 +128,7 @@ const useFirebase = () => {
         users,
         isLoading,
         signInUsingGoogle,
-        signInUsingGitHubFacebook,
+        signInUsingFacebook,
         logOut
     }
 };

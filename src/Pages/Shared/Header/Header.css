@@ -12,14 +12,12 @@
     color: #fff;
     font-weight: 500;
     padding: 10px 0;
-    /* background-color: #452458; */
     background-color: #223645;
     font-family: 'Poppins', sans-serif;
     letter-spacing: .5px;
 }
 .text-link,
 .text-link:hover{
-    /* text-decoration: none; */
     color: #fff;
     font-weight: 600;
 }

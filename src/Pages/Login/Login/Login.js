@@ -10,7 +10,7 @@ import { faGooglePlus, faFacebook } from '@fortawesome/free-brands-svg-icons'
 const Login = () => {
     const {
         signInUsingGoogle,
-        signInUsingGitHubFacebook,
+        signInUsingFacebook,
         handleEmailChange,
         handlePasswordChange,
         handleLogIn,
@@ -37,7 +37,7 @@ const Login = () => {
 
     // Facebook login-btn-handler 
     const handleFacebookLogin = () => {
-        signInUsingGitHubFacebook()
+        signInUsingFacebook()
             .then(result => {
                 history.push(redirect_uri);
             })

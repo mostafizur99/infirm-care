@@ -1,0 +1,8 @@
+.not-found{
+    padding: 10rem 0;
+}
+.not-found h2{
+    color: #ffb545;
+    font-weight: 700;
+    font-size: 5rem;
+}

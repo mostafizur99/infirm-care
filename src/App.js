@@ -15,6 +15,7 @@ import SignUp from './Pages/Login/SignUp/SignUp';
 import NotFound from './Pages/NotFound/NotFound';
 import Footer from './Pages/Shared/Footer/Footer';
 import Header from './Pages/Shared/Header/Header';
+import Team from './Pages/Team/Team';
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
           <Switch>
             <Route path="/home">
               <Home></Home>
+            </Route>
+            <Route path="/team">
+              <Team></Team>
             </Route>
             <PrivateRoute path="/appointment">
               <Appointment></Appointment>

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import useService from '../../../hooks/useService';
@@ -6,13 +6,6 @@ import ServiceBox from '../ServiceBox/ServiceBox';
 import './ServicesSection.css';
 
 const ServicesSection = () => {
-    /* const [services, setServices] = useState([]);
-
-    useEffect(() => {
-        fetch('./servicesData.json')
-            .then(res => res.json())
-            .then(data => setServices(data))
-    }, []) */
 
     const [services] = useService();
 

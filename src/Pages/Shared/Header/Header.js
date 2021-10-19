@@ -21,6 +21,7 @@ const Header = () => {
                     <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
                         <Nav className="fw-bold ">
                             <Nav.Link className="primary-color" as={Link} to="/home">Home</Nav.Link>
+                            <Nav.Link className="primary-color" as={Link} to="/team">Team</Nav.Link>
                             <Nav.Link className="primary-color" as={Link} to="/appointment">Appointment</Nav.Link>
 
 
@@ -32,7 +33,7 @@ const Header = () => {
                                     </> :
                                     <>
                                         <Navbar.Text className="fst-italic fw-bold">
-                                            Signed in as: <a href="/login">{users.displayName}</a>
+                                            Signed in as: <a className="secondary-color" href="/login">{users.displayName}</a>
                                         </Navbar.Text>
                                         <span><button onClick={logOut} className="nav-btn  ms-4">Sign out</button></span>
                                     </>
