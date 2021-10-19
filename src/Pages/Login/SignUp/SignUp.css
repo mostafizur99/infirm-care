@@ -1,26 +1,9 @@
 .sign-up{
     padding: 80px 0 100px 0;
 }
-/* .sign-up input{
-    border: none;
-    background: #8080801f;
-    padding: 12px 20px;
-    border-radius: 5px;
-}
-.sign-up input:focus {
-    background: #fa294f0a;
-    border: none;
-    box-shadow: none;
-  }
-.btn-sign-up,
-.btn-sign-up:hover {
-    width: 100%;
-    background: #fa2951;
-    color: #fff;
-} */
 .login-link,
 .login-link:hover{
     text-decoration: none;
-    color: #fd7e14;
+    color: #ffb545;
     margin-top: 20px;
 }

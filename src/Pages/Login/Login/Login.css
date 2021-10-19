@@ -16,7 +16,7 @@
 }
 .btn-login {
     width: 100%;
-    background: #fd7e14;
+    background: #ffb545;
     height: 3.875rem;
     color: #223645 !important;
     font-weight: 600;
@@ -41,7 +41,7 @@
 .btn-forgot {
     border: none;
     background: transparent;
-    color: #fd7e14;
+    color: #ffb545;
     letter-spacing: .5px;
     font-size: .8rem;
 }

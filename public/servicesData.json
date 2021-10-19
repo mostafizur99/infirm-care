@@ -1,22 +1,44 @@
 [
     {
-        "name": "English Learning",
-        "subTitle": "Learn English, explore the world.",
         "id": 1,
-        "price": 95,
-        "liveClass": true,
-        "duration": 24,
-        "thumb": "https://language-school.cmsmasters.net/wp-content/uploads/2015/12/Depositphotos_72150359_original-300x300.jpg",
-        "srtDesc": "Knowing English increases your chances of getting a good job as well as the space of communication world!"
+        "title": "Children Care",
+        "subTitle": "We have children  care unit with friendly better environment ",
+        "thumbImg": "https://5.imimg.com/data5/IR/RU/BC/SELLER-12055959/baby-care-at-home-500x500.jpg",
+        "srtDesc": "Our service starts from the very beginning of stepping into the centre. There is no inequality regarding ethnicity, gender and religion. We value and respect every parent who has any question or concern about development or problems relating to neurological aspect. From this point, our dedicated and devoted associates help children where to go.The children, who have come for the first time, are taken to our child special unit to ensure the proper diognosis and thereby the entrusted treatment "
     },
     {
-        "name": "Speak in Spanish",
-        "subTitle": "Communicate with Spanish, Latin American.",
         "id": 2,
-        "price": 82,
-        "liveClass": false,
-        "duration": 26,
-        "thumb": "https://language-school.cmsmasters.net/wp-content/uploads/2015/12/Depositphotos_58582087_original-300x300.jpg",
-        "srtDesc": "Understand Spanish enables you to gain important insights with most important trading partners."
+        "title": "Diabetic Point",
+        "subTitle": "We have modern diabetic care with updated treatment ",
+        "thumbImg": "https://www.healthcatalyst.com/wp-content/uploads/2021/06/Inpatient-Diabetes-Care.png",
+        "srtDesc": "The services offered at our center cover a wide range of topics including diabetes education, meal planning, diabetes medication, preventing complications, exercise and making adjustments for daily living."
+    },
+    {
+        "id": 3,
+        "title": "Dental Care",
+        "subTitle": "We provide highly specialised advanced dental care service",
+        "thumbImg": "https://penndentalmedicine.org/wp-content/uploads/2015/09/shutterstock_138700625-3.jpg",
+        "srtDesc": "The Department of Dentistry at here offers state-of-the-art, in-house dental, cosmetic, restorative and implant solutions. All dental treatments and procedures are provided under one roof. Relentless efforts ensure that the latest techniques and technologies are used, along with infection control measures that promise the best possible dental experience to patients. Our sterilization and disinfection standards strictly adhere to international standards. Dynamic, ultra-hygienic, advanced dental care, advanced dental equipment, dental material and the latest global dental techniques are the highlights of the Department of Dentistry."
+    },
+    {
+        "id": 4,
+        "title": "Emergency Care",
+        "subTitle": "we are reay to serve 24/7 for any unfortunate event",
+        "thumbImg": "https://www.hshs.org/HSHSFamily/media/St-Vincent/Services/St-Vincent-Emergency-Trauma-Center.jpg",
+        "srtDesc": "Evercare Accident & Emergency Centre provides multidisciplinary emergency support 24 hours a day, 7 days a week with state-of-the-art facilities and expert trauma team, providing ventilator and life support equipped ambulances, stroke management, life support, cardiac support and trauma life support protocols with emergency and triage beds, and immediate access to diagnostic, medical and surgical specialties. Accident & Emergency Centre has started dedicated Chest Pain Observation Unit (CPOU) for emergency management of patients with chest pain but at low risk of heart attack, aiming to improve the efficiency of care of low-risk patients without unnecessary admissions. Nine Emergency Codes are followed within the hospital, denoting different emergency situations for efficient management."
+    },
+    {
+        "id": 5,
+        "title": "Diagnostic Point",
+        "subTitle": "We are committed to provide affordable services.",
+        "thumbImg": "https://thumbayhospital.com/dc-university/wp-content/uploads/sites/9/2018/06/dental-1.jpg",
+        "srtDesc": "We are committed to provide affordable services, without any compromise on the quality of service – so that you are able to remain happy. Here we have modern machinaries for diagnosis which will ensure you the most chance of accurate diagnosis service. Hence we have skilled operator will most experience meaning"
+    },
+    {
+        "id": 6,
+        "title": "Outpatient Care",
+        "subTitle": "We provide a wide range of service by our experienced experties",
+        "thumbImg": "https://www.nemji.cz/assets/Image.ashx?id_org=427001&id_obrazky=1185",
+        "srtDesc": "Our out patient unit are experienced with public health as well as well manner of maintaing the health service. We provide a wide range of service by our experienced experties.We are committed to provide affordable services, without any compromise on the quality of service – so that you are able to remain happy."
     }
 ]

@@ -28,7 +28,7 @@ const Banner = () => {
                         src="https://i.ibb.co/MRqZWbG/banner1.jpg"
                         alt="First slide"
                     />
-                    <div className="carousel-text">
+                    <div className="carousel-text  shadow">
                         <h3>Professional Health Services Level</h3>
                         <p>Providing the Best Updated Care To All</p>
                         <Link to="/sign-up" className='banner-btn'>Appointment</Link>
@@ -42,7 +42,7 @@ const Banner = () => {
                         src="https://i.ibb.co/jf0J3mn/slider-3.jpg"
                         alt="First slide"
                     />
-                    <div className="carousel-text">
+                    <div className="carousel-text  shadow">
                         <h3>Experienced Team With Feedback</h3>
                         <p>We are Enriched With Successfull stories</p>
                         <Link to="/sign-up" className='banner-btn'>Appointment</Link>

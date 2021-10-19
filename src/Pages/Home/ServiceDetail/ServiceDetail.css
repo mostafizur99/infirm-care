@@ -1,0 +1,20 @@
+.sidebar-contact {
+    background-color: #fd7e14;
+    background-position: center;
+    background-size: 100% 100%;
+    padding: 4rem 0 10rem 0;
+}
+
+/* Tablet Device */
+@media only screen and (min-width: 688px) and (max-width:992px) {
+    .sidebar-contact {
+        padding: 4rem 0 10rem 0;
+        margin: 0 5rem ;
+    }
+}
+
+
+/* Mobile Device */
+@media only screen and (max-width:688px) {
+  
+}

@@ -1,12 +1,12 @@
 .counter{
-    background-color: #fd7e14;
+    background-color: #ffb545;
     background-position: center ;
     background-size: 100% 100%;
     position: relative;
     z-index: 1;
 }
 .counter::after {
-    background: #fd7e14;
+    background: #ffb545;
     position: absolute;
     height: 100%;
     width: 100%;

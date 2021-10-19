@@ -2,7 +2,7 @@
     color: #223645;
 }
 .secondary-color{
-    color:#fd7e14;
+    color:#ffb545;
 }
 .text-color{
     color: #7A8A9E;
@@ -25,7 +25,7 @@
 }
 .logo-icon{
     font-size: 50px;
-    color: #fd7e14;
+    color: #ffb545;
 }
 .navbar-light .navbar-nav .nav-link {
     color: #223645;
@@ -36,9 +36,28 @@
     margin-right: 15px;
 }
 .navbar-light .navbar-nav .nav-link:hover{
-    color: #fd7e14;
+    color: #ffb545;
 }
 .navbar-light .navbar-toggler {
     color: #223645;
     border-color: rgba(0,0,0,.1);
+}
+.nav-btn{
+    background: #ffb545;
+    color: #223645;
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    padding: .3rem .7rem;
+}
+
+/* Tablet Device */
+@media only screen and (min-width: 688px) and (max-width:992px) {
+    
+}
+
+
+/* Mobile Device */
+@media only screen and (max-width:688px) {
+    
 }

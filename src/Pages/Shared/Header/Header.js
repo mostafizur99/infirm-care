@@ -34,7 +34,7 @@ const Header = () => {
                                         <Navbar.Text className="fst-italic fw-bold">
                                             Signed in as: <a href="/login">{users.displayName}</a>
                                         </Navbar.Text>
-                                        <button onClick={logOut} className="nav-btn  ms-4">Sign out</button>
+                                        <span><button onClick={logOut} className="nav-btn  ms-4">Sign out</button></span>
                                     </>
                             }
                         </Nav>
