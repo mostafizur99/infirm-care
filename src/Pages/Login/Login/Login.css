@@ -1,0 +1,58 @@
+.login{
+    padding: 5rem 0 150px 0;
+}
+.login-box{
+    padding: 0 10%;
+}
+.login-wrap{
+    background-color: #223645;
+    padding:  10% 10%;
+    border-radius: 10px;
+}
+.login-header{
+    color: #fff;
+    font-size: 2.1875rem;
+    font-weight: 700;
+}
+.btn-login {
+    width: 100%;
+    background: #fd7e14;
+    height: 3.875rem;
+    color: #223645 !important;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.login input,
+.sign-up input {
+    border: none;
+    background: #80808052;
+    padding: 12px 20px;
+    border-radius: 5px;
+    height: 3.875rem;
+    color: #fff;
+}
+.login input:focus,
+.sign-up input:focus {
+    background: #80808070;
+    border: none;
+    box-shadow: none;
+    color: #fff;
+}
+.btn-forgot {
+    border: none;
+    background: transparent;
+    color: #fd7e14;
+    letter-spacing: .5px;
+    font-size: .8rem;
+}
+.login-brand-btn {
+    border: none;
+    background: transparent;
+    font-size: 2.6rem;
+}
+.brand-facebook{
+    color:  #3b5998;
+}
+.brand-google{
+    color:  #db3236;
+}

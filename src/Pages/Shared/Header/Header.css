@@ -1,0 +1,44 @@
+.primary-color{
+    color: #223645;
+}
+.secondary-color{
+    color:#fd7e14;
+}
+.text-color{
+    color: #7A8A9E;
+}
+.top-bar{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px 0;
+    /* background-color: #452458; */
+    background-color: #223645;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .5px;
+}
+.text-link,
+.text-link:hover{
+    /* text-decoration: none; */
+    color: #fff;
+    font-weight: 600;
+}
+.logo-icon{
+    font-size: 50px;
+    color: #fd7e14;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #223645;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-right: 15px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #fd7e14;
+}
+.navbar-light .navbar-toggler {
+    color: #223645;
+    border-color: rgba(0,0,0,.1);
+}

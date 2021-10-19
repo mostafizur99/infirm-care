@@ -1,0 +1,78 @@
+.carousel-item{
+position: relative;
+}
+.carousel-text {
+    background: #fff;
+    color: black;
+    position: absolute;
+    bottom: 40%;
+    right: 15%;
+    padding: 1.7rem 2rem;
+    width: 26rem;
+}
+.carousel-text h3 {
+    color: #223645;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.8rem;
+}
+.carousel-text p {
+    color: #7A8A9E;
+}
+.banner-btn {
+    font-size: .7375rem;
+    color: #223645;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: .6rem 1rem;
+    text-decoration: none;
+    text-align: center;
+    background-color: #ffb545;
+}
+.banner-btn:hover {
+    color: #ffb545;
+    background-color: #223645;
+}
+.carousel-indicators {
+    display: none;
+}
+
+/* Tablet Device */
+@media only screen and (min-width: 688px) and (max-width:992px) {
+    .carousel-text {
+        bottom: 12%;
+        right: 11%;
+        padding: 1rem 1rem;
+        width: 24rem;
+    }
+    .carousel-text h3 {
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+    .carousel-text p {
+        font-size: .8rem;
+    }
+}
+
+
+/* Mobile Device */
+@media only screen and (max-width:688px) {
+    .carousel-text {
+        bottom: 18%;
+        right: 19%;
+        padding: 1rem 1rem;
+        width: 15rem;
+    }
+    .carousel-text h3 {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+    .carousel-text p {
+        font-size: .6rem;
+        margin-bottom: .5rem;
+    }
+    .banner-btn {
+        font-size: .5375rem;
+        padding: .4rem .6rem;
+    }
+}

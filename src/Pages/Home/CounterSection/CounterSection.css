@@ -1,0 +1,35 @@
+.counter{
+    background-color: #fd7e14;
+    background-position: center ;
+    background-size: 100% 100%;
+    position: relative;
+    z-index: 1;
+}
+.counter::after {
+    background: #fd7e14;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    content: "";
+    opacity: .8;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.counter-icon{
+    font-size: 3.5rem;
+    color: #223645;
+}
+.counter-text h4{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #223645;
+}
+.counter-text h5{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #223645;
+}
+.counter-text p{
+    color: #223645;
+}

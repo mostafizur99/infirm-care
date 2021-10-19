@@ -1,0 +1,22 @@
+[
+    {
+        "name": "English Learning",
+        "subTitle": "Learn English, explore the world.",
+        "id": 1,
+        "price": 95,
+        "liveClass": true,
+        "duration": 24,
+        "thumb": "https://language-school.cmsmasters.net/wp-content/uploads/2015/12/Depositphotos_72150359_original-300x300.jpg",
+        "srtDesc": "Knowing English increases your chances of getting a good job as well as the space of communication world!"
+    },
+    {
+        "name": "Speak in Spanish",
+        "subTitle": "Communicate with Spanish, Latin American.",
+        "id": 2,
+        "price": 82,
+        "liveClass": false,
+        "duration": 26,
+        "thumb": "https://language-school.cmsmasters.net/wp-content/uploads/2015/12/Depositphotos_58582087_original-300x300.jpg",
+        "srtDesc": "Understand Spanish enables you to gain important insights with most important trading partners."
+    }
+]
