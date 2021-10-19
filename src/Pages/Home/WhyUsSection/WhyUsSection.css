@@ -1,0 +1,34 @@
+.why-us-section{
+    /* background: #f0f8ffeb; */
+    padding: 6rem 0;
+}
+.why-us-text h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #223645;
+}
+.why-us-text p {
+    color: #7A8A9E;
+}
+
+.why-us-icon {
+    font-size: 5rem;
+    border-radius: 5px;
+    background: #ffb545;
+    padding: 1rem;
+    color: #fff;
+}
+
+
+/* Tablet Device */
+@media only screen and (min-width: 688px) and (max-width:992px) {
+    .why-us-image.py-4 {
+        margin-top: 8rem;
+    }
+}
+
+
+/* Mobile Device */
+@media only screen and (max-width:688px) {
+  
+}
