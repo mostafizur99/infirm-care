@@ -5,12 +5,12 @@ import './Team.css'
 const Team = () => {
     const Bgurl = "https://i.ibb.co/3cLKhHr/banner-img2.png";
 
-    const team1 = "https://neurology.nauthemes.com/wp-content/uploads/bfi_thumb/doc-3-p9rksem8qlm4tsz25m6w1aeuccmsdpz001vk4savp8.jpg";
-    const team2 = "https://neurology.nauthemes.com/wp-content/uploads/bfi_thumb/doc-7-p9rkshfrb3pzsmuyp5erqrp84i8w0ta70fu0km6p6k.jpg";
-    const team3 = "https://neurology.nauthemes.com/wp-content/uploads/bfi_thumb/doc-5-p9rksghx49oph0wbun0569xrj4dit46gob6j3c83cs.jpg";
-    const team4 = "https://neurology.nauthemes.com/wp-content/uploads/bfi_thumb/doc-1-p9rksdoejrkui70fb3s9gsndqyrf60v9nx82nic9vg.jpg";
-    const team5 = "https://neurology.nauthemes.com/wp-content/uploads/bfi_thumb/doc-10-p9rl55bhdr227igrr4gtu2ns8dtwq0k0f48ibtercs.jpg";
-    const team6 = "https://neurology.nauthemes.com/wp-content/uploads/bfi_thumb/doc-9-p9rksjbforskfus8e680vr85b9zmg7hnop4zj63wu4.jpg";
+    const team1 = "https://i.ibb.co/x2mRpHF/team1.jpg";
+    const team2 = "https://i.ibb.co/KVHqc27/team2.jpg";
+    const team3 = "https://i.ibb.co/qRcqQKh/team3.jpg";
+    const team4 = "https://i.ibb.co/BLy831J/team4.jpg";
+    const team5 = "https://i.ibb.co/W2rQ0d5/team5.jpg";
+    const team6 = "https://i.ibb.co/LQvn8c9/team6.jpg";
     return (
         <div>
             <Container fluid>

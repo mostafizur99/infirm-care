@@ -1,16 +1,18 @@
 .Footer{
     background: #223645;
+    background-position: center center;
+    background-size: 100% 100%;
 }
 .footer-item{
     color: rgb(216, 216, 216);
-    background: #223645;
+    background: inherit;
 
 }
 .list-group-item {
     border: none;
 }
 .Footer a:hover {
-    color: #fd7e14;
+    color: #ffb545;
 }
 .footer-gallery{
     display: grid;

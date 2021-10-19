@@ -68,7 +68,7 @@ const useFirebase = () => {
     // registration function 
     const handleRegistration = e => {
         e.preventDefault();
-        console.log(email, password);
+        // console.log(email, password);
         // pass authentication-1 
         if (password.length < 6) {
             setError('Password Must be at least 6 characters long.')

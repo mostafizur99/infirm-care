@@ -6,8 +6,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMapMarkerAlt, faEnvelope, faPhoneVolume, } from '@fortawesome/free-solid-svg-icons'
 
 const Footer = () => {
+
+    const bgMapUrl = "https://i.ibb.co/YbKS2V9/mapWorld.png";
+
     return (
-        <div className="Footer text-start text-white py-4">
+        <div className="Footer text-start text-white py-4" style={{ backgroundImage: ` linear-gradient( #223645cc, #223645c4 ), url(${bgMapUrl})` }}>
             <Container>
                 <Row>
                     <Col md={3} className="my-4">
