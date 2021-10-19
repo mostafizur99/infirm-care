@@ -17,7 +17,7 @@ const Banner = () => {
                     <div className="carousel-text shadow">
                         <h3>Committed to Trusted Health Care</h3>
                         <p>we Are Always By Your Side with To Care</p>
-                        <Link to="/sign-up" className='banner-btn'>Appointment</Link>
+                        <Link to="/appointment" className='banner-btn'>Appointment</Link>
                     </div>
                 </Carousel.Item>
 
@@ -31,7 +31,7 @@ const Banner = () => {
                     <div className="carousel-text  shadow">
                         <h3>Professional Health Services Level</h3>
                         <p>Providing the Best Updated Care To All</p>
-                        <Link to="/sign-up" className='banner-btn'>Appointment</Link>
+                        <Link to="/appointment" className='banner-btn'>Appointment</Link>
                     </div>
                 </Carousel.Item>
 
@@ -45,7 +45,7 @@ const Banner = () => {
                     <div className="carousel-text  shadow">
                         <h3>Experienced Team With Feedback</h3>
                         <p>We are Enriched With Successfull stories</p>
-                        <Link to="/sign-up" className='banner-btn'>Appointment</Link>
+                        <Link to="/appointment" className='banner-btn'>Appointment</Link>
                     </div>
                 </Carousel.Item>
 

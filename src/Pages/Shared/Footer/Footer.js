@@ -18,7 +18,7 @@ const Footer = () => {
                         <h4 className="ms-3">Quic Links</h4>
                         <Nav defaultActiveKey="/home" className="flex-column ">
                             <NavLink className="fs-5 mx-3  text-decoration-none footer-item" to="/home">Home</NavLink>
-                            <NavLink className="fs-5 mx-3 text-decoration-none footer-item" to="/service-detail">Details</NavLink>
+                            <NavLink className="fs-5 mx-3 text-decoration-none footer-item" to="/appointment">Appointmrnt</NavLink>
                             <NavLink className="fs-5 mx-3 text-decoration-none footer-item" to="/login">Login</NavLink>
                             <NavLink className="fs-5 mx-3 text-decoration-none footer-item" to="/sign-up">Sign Up</NavLink>
 

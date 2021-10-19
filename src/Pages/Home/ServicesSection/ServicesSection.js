@@ -29,7 +29,7 @@ const ServicesSection = () => {
                     </Col>
                     <Col xs={12} md={6} className="d-flex align-items-center justify-content-center">
                         <div className="section-header-right" >
-                            <Link to="/sign-up" className='service-header-btn'>Get Appointment</Link>
+                            <Link to="/appointment" className='service-header-btn'>Get Appointment</Link>
                         </div>
                     </Col>
                 </Row>

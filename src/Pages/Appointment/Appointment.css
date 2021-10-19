@@ -1,0 +1,16 @@
+.appointment-list{
+    text-align: left;
+}
+
+/* Tablet Device */
+@media only screen and (min-width: 688px) and (max-width:992px) {
+    .appointment-list{
+        text-align: center;
+    }
+}
+
+
+/* Mobile Device */
+@media only screen and (max-width:688px) {
+   
+}

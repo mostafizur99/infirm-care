@@ -14,16 +14,17 @@ const SignUp = () => {
         error
     } = useAuth();
 
+    // signup left side image link 
+    const signupImg = "https://i.ibb.co/pZjhC31/footer-3.jpg";
     return (
         <div className="sign-up">
             <Container>
                 <Row>
                     <Col md={12} lg={4} className="d-flex align-items-center">
-                        <Row>
-                            <div >
-                                <h2 className="fw-bold">We are here to help when you need us</h2>
-                            </div>
-                        </Row>
+                        <div className="signup-side" style={{ backgroundImage: `linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(${signupImg})` }} >
+                            <h3 className="fw-bold signup-side-text">We are here to help when you need us</h3>
+                        </div>
+
                     </Col>
                     <Col md={12} lg={8} >
                         <div className="login-box">
@@ -31,7 +32,7 @@ const SignUp = () => {
                                 <h3 className="login-header mb-5">Sign Up</h3>
                                 <form onSubmit={handleRegistration}>
                                     <div className="mb-3">
-                                        <input onBlur={handleNameChange} type="text" className="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="Name" />
+                                        <input onBlur={handleNameChange} type="text" className="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="Name" required />
                                     </div>
                                     <div className="mb-3">
                                         <input onBlur={handleEmailChange} type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" required />

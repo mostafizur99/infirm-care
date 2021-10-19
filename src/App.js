@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import './App.css';
 import AuthProvider from './context/AuthProvider';
+import Appointment from './Pages/Appointment/Appointment';
 import Home from './Pages/Home/Home/Home';
 import ServiceDetail from './Pages/Home/ServiceDetail/ServiceDetail';
 import Login from './Pages/Login/Login/Login';
@@ -25,9 +26,9 @@ function App() {
             <Route path="/home">
               <Home></Home>
             </Route>
-            {/* <PrivateRoute path="/service-detail">
-              <ServiceDetail></ServiceDetail>
-            </PrivateRoute> */}
+            <PrivateRoute path="/appointment">
+              <Appointment></Appointment>
+            </PrivateRoute>
             <Route path="/login">
               <Login></Login>
             </Route>
