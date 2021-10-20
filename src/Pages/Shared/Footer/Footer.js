@@ -82,7 +82,7 @@ const Footer = () => {
                     <Row className="align-items-center">
                         <Col sm={12} md={6}>
                             <div className="copy-right">
-                                <p className="m-0">© All right reserved 2021 <span className="secondary-color">Infinity Care</span>. Health Care Service</p>
+                                <p className="m-0">© All right reserved 2021 <span className="secondary-color">Infirm Care</span>. Health Care Service</p>
                             </div>
                         </Col>
                         <Col sm={12} md={6}>
