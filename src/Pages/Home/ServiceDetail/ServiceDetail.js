@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Container, ListGroup, Row } from 'react-bootstrap';
 import { Link, useParams } from 'react-router-dom';
 import './ServiceDetail.css'
 
@@ -45,8 +45,20 @@ const ServiceDetail = () => {
                         </div>
                     </div>
                 </Col>
-                <Col xs={12} md={12} lg={4}>
-                    <div className="px-5 py-5" >
+                <Col xs={12} md={12} lg={4} className="details-sidebar">
+                    <div className="details-sidebar-wrap px-5 py-5" >
+                        <div className="sidebar-list">
+                            <h3>Hospital Services</h3>
+                            <ListGroup variant="flush" className=" bg-white mt-4">
+                                <Link to="/service/1" className='sidebar-list-item'>Children Care</Link>
+                                <Link to="/service/2" className='sidebar-list-item'>Diabetic Point</Link>
+                                <Link to="/service/3" className='sidebar-list-item'>Dental Care</Link>
+                                <Link to="/service/4" className='sidebar-list-item'>Emergency Care</Link>
+                                <Link to="/service/5" className='sidebar-list-item'>Diagnostic Point</Link>
+                                <Link to="/service/6" className='sidebar-list-item'>Outpatient Care</Link>
+                            </ListGroup>
+                        </div>
+
                         <div className="sidebar-contact text-white" style={{ backgroundImage: `linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(${sideImg})` }}>
                             <h3 className="py-2 px-2 fw-bold">Have Any Qusetion ?</h3>
 
