@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './Team.css'
 
 const Team = () => {
@@ -36,13 +37,13 @@ const Team = () => {
                     </Row>
                     <Row>
                         <Col xs={6} md={4} lg={4}>
-                            <div className="service-box my-5">
-                                <div className="service-box-image">
-                                    <div className="box-image-wrap">
+                            <div className="team-box my-5">
+                                <div className="team-box-image">
+                                    <div className="team-image-wrap">
                                         <img className="img-fluid" src={team1} alt="" />
                                     </div>
                                 </div>
-                                <div className="service-box-content mt-2 py-2">
+                                <div className="team-box-content mt-2 py-2">
 
                                     <p>SR. PSYCHOLOGIST</p>
                                     <h3>Alexa Brown</h3>
@@ -50,13 +51,13 @@ const Team = () => {
                             </div>
                         </Col>
                         <Col xs={6} md={4} lg={4}>
-                            <div className="service-box my-5">
-                                <div className="service-box-image">
-                                    <div className="box-image-wrap">
+                            <div className="team-box my-5">
+                                <div className="team-box-image">
+                                    <div className="team-image-wrap">
                                         <img className="img-fluid" src={team2} alt="" />
                                     </div>
                                 </div>
-                                <div className="service-box-content mt-2 py-2">
+                                <div className="team-box-content mt-2 py-2">
 
                                     <p>CLINICAL DOCTOR</p>
                                     <h3>Roy Collins</h3>
@@ -64,13 +65,13 @@ const Team = () => {
                             </div>
                         </Col>
                         <Col xs={6} md={4} lg={4}>
-                            <div className="service-box my-5">
-                                <div className="service-box-image">
-                                    <div className="box-image-wrap">
+                            <div className="team-box my-5">
+                                <div className="team-box-image">
+                                    <div className="team-image-wrap">
                                         <img className="img-fluid" src={team3} alt="" />
                                     </div>
                                 </div>
-                                <div className="service-box-content mt-2 py-2">
+                                <div className="team-box-content mt-2 py-2">
 
                                     <p>SR. PSYCHOLOGIST</p>
                                     <h3>Saro Moris</h3>
@@ -78,13 +79,13 @@ const Team = () => {
                             </div>
                         </Col>
                         <Col xs={6} md={4} lg={4}>
-                            <div className="service-box my-5">
-                                <div className="service-box-image">
-                                    <div className="box-image-wrap">
+                            <div className="team-box my-5">
+                                <div className="team-box-image">
+                                    <div className="team-image-wrap">
                                         <img className="img-fluid" src={team4} alt="" />
                                     </div>
                                 </div>
-                                <div className="service-box-content mt-2 py-2">
+                                <div className="team-box-content mt-2 py-2">
 
                                     <p>CLINICAL DOCTOR</p>
                                     <h3>Emma Scott</h3>
@@ -92,13 +93,13 @@ const Team = () => {
                             </div>
                         </Col>
                         <Col xs={6} md={4} lg={4}>
-                            <div className="service-box my-5">
-                                <div className="service-box-image">
-                                    <div className="box-image-wrap">
+                            <div className="team-box my-5">
+                                <div className="team-box-image">
+                                    <div className="team-image-wrap">
                                         <img className="img-fluid" src={team5} alt="" />
                                     </div>
                                 </div>
-                                <div className="service-box-content mt-2 py-2">
+                                <div className="team-box-content mt-2 py-2">
 
                                     <p>SR. PSYCHOLOGIST</p>
                                     <h3>Charlie James</h3>
@@ -106,17 +107,32 @@ const Team = () => {
                             </div>
                         </Col>
                         <Col xs={6} md={4} lg={4}>
-                            <div className="service-box my-5">
-                                <div className="service-box-image">
-                                    <div className="box-image-wrap">
+                            <div className="team-box my-5">
+                                <div className="team-box-image">
+                                    <div className="team-image-wrap">
                                         <img className="img-fluid" src={team6} alt="" />
                                     </div>
                                 </div>
-                                <div className="service-box-content mt-2 py-2">
+                                <div className="team-box-content mt-2 py-2">
 
                                     <p>SR. PSYCHOLOGIST</p>
                                     <h3>Mary Joe</h3>
                                 </div>
+                            </div>
+                        </Col>
+                    </Row>
+                </Container>
+            </div>
+
+            <div className="carrer-section">
+                <Container>
+                    <Row className="align-items-center">
+                        <Col xs={12} md={8}>
+                            <h2>Start Your Career Here!</h2>
+                        </Col>
+                        <Col xs={12} md={4}>
+                            <div className="carrier-btn-wrap">
+                                <Link to="/login" className='carrer-btn'>Contact Now</Link>
                             </div>
                         </Col>
                     </Row>
