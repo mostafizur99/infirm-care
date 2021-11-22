@@ -1,10 +1,10 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyCPyzdYOshPgb_JpkrL6WRylmSwjGB9dMQ",
-    authDomain: "infirm-care.firebaseapp.com",
-    projectId: "infirm-care",
-    storageBucket: "infirm-care.appspot.com",
-    messagingSenderId: "169396633534",
-    appId: "1:169396633534:web:8c4d32150c9c4aba0ec3ef"
+    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+    authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+    projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+    storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+    appId: process.env.REACT_APP_FIREBASE_APP_ID,
 };
 
 export default firebaseConfig;
